@@ -1,0 +1,1 @@
+json.array! @fitnesses, partial: 'fitnesses/fitness', as: :fitness
