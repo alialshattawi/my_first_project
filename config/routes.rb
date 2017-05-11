@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  resources :fitnesses
   get 'home/index'
 
   devise_for :users
-   root to: "home#index"
+   root to: "fitnesses#index"
  
 end
